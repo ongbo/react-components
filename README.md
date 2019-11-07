@@ -1,8 +1,8 @@
-## 关于
+## About
 
-这个仓库作为构建React应用的脚手架仓库，避免繁琐无关的配置。使用`webpack`作为构建打包工具，添加`sass`,`css`支持，支持**ES6**语法
+This warehouse integrates some basic react components, but I just copy the components and integrate a basic web front-end, so you need to have a look when you use it. Use 'webpack' as a build packaging tool, add 'sass', support' CSS', support * * ES6 * * syntax
 
-## 使用方法
+## Using approach
 
 假定项目用户名为`your-project-name`,使用`yarn`作为包管理工具,下面的
 
