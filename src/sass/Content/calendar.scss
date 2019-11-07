@@ -1,0 +1,108 @@
+$calendar-width: 250px;
+$calendar-height: 220px;
+
+
+/*
+author: ourfor
+website: www.ourfor.top
+qq: 2320813747
+date: 2019-07-31 天气多云⛅️ 心情好 状态一般
+*/
+#calendar-box {
+    width: $calendar-width;
+    height: $calendar-height;
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+    box-shadow: 0 1px 3px #ccc;
+    // border: 1px solid #EDEDED;
+    border: 1px solid #5E5F63;
+
+
+    .calendar-container {
+        border: none;
+        color: #666;
+    }
+
+    td{
+        font-size: 12px;
+        font-family: "Comic Sans MS";
+        text-align: center;
+        // background: #FFFFFF;
+        background: #ccc;
+        padding-top: 2px;
+    }
+
+    th{
+        font-size: 12px;
+    }
+
+    #calendar-body{
+        width: 100%;
+        height: 100%;
+        border-spacing: 0;
+        line-height: 1.5em;
+
+        & td{
+            padding: 0;
+        }
+    }
+    // 上个月下个月的箭头样式
+    .CalNextMonth a:link, .CalNextMonth a:visited, .CalNextMonth a:active,
+    .CalLastMonth a:link, .CalLastMonth a:visited, .CalLastMonth a:active {
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+}
+
+#calendar-box table a:link, #calendar-box table a:visited, #calendar-box table a:active {
+    font-weight: bold;
+}
+
+#calendar-box table a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.CalTodayDay { /**今天日期样式**/
+    background: #3671a5 !important;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.CalWeekendDay {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.CalOtherMonthDay {
+    color: #ccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.CalDayHeader {
+    background: #F8F8F8;
+    font-weight: 100;
+    color: #5E5F63;
+}
+
+.CalTitle { 
+    // 日历年月头部样式
+    background: #6293bb;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0;
+    color: #FFF;
+}
+
+.CalTitle td {
+    background: #F8F8F8 !important;
+    border: 0px !important;
+    color: #5E5F63;
+    font-family: "Comic Sans MS";
+}

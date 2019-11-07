@@ -1,0 +1,34 @@
+
+$font-weight: 300;
+
+
+
+$font-weight: 300;
+
+h1 {
+    font-style: italic;
+    font-weight: $font-weight;
+    color: blueviolet;
+}
+
+#main{
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.ant-card {
+    font-size: 16px;
+}
+
+a.a {
+    color: blueviolet;
+}
+
+div.a ~ a {
+    color: blue;
+}
+
+
